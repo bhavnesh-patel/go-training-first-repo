@@ -34,5 +34,6 @@ func main() {
     fmt.Println("numbers =", numbers)          // 0 0 0 0 5
     fmt.Println("length =", len(numbers))      // 5
     fmt.Println("capacity =", cap(numbers))
+    fmt.Println("%T ",numbers)
 }
 
